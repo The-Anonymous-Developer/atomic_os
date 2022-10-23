@@ -214,7 +214,7 @@ disk_reset:
 
 
 msg_hello:				db 'Hello World!', ENDL,  0
-message_read_failed:	db 'AOS-CR: Read from disk failed!!', ENDL, 0
+message_read_failed:	db 'AOS-R: Read from disk failed!!', ENDL, 0
 
 times 510-($-$$) db 0
 dw 0AA55h
